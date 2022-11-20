@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form id="calculator" class="calculator">
+    <label for="loanAmount">khoản vay (đ)</label>
+    <input type="currency" id="loanAmount" name="loanAmount">
+    <label for="interestRate">Lãi suất (%)</label>
+    <input type="number" id="interestRate" name="interestRate">
+    <label for="time">Thời gian vay (tháng)</label>
+    <input type="number" id="time" name="time">
+    <button type="submit" name="submit">Submit</button>
+  </form>
+
+  <div className="result">
+    <div className="total-amount"></div>
+    <div className="total-interest"></div>
+    <div className="result__loanAmount"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
